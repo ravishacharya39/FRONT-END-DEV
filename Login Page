@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login pAge</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            height: 500px;
+        }
+        form{
+            
+            border-radius: 23px;
+            
+            background-color: silver;
+            box-shadow: rgb(163, 134, 134) 10px 10px;
+        }
+        form h2{
+            text-align: center;
+        }
+        form .box{
+            margin: 50px 50px;
+            margin-bottom: 8px;
+        }
+        .box input{
+            display: block;
+            padding: 10px 5px;
+        }
+        .box .btn{
+            margin-bottom: 50px;
+            width: 100%;
+            padding: 10px 5px;
+            background-color: blue;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <form action="">
+            <h2>Login</h2>
+            <div class="box">
+                <label for="username">Usename:</label>
+                <input type="text" id="username" placeholder="Enter your username">
+            </div>
+            <div class="box">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your Password">
+            </div>
+            <div class="box">
+                <button class="btn">Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
