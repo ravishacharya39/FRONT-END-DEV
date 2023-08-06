@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+--navbar-height:59px;
+}
+html{
+   scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top: 0px;
+}
+#navbar::before{
+content: "";
+position: absolute;
+height: 100%;
+width: 100%;
+background-color: black;
+z-index: -1;
+opacity: 0.4;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    margin: 20px 25px;
+    border: 2px solid red;
+
+
+}
+#logo img{
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Old Standard TT', serif;
+
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+
+    
+}
+#navbar ul li a{
+    color: black;
+   display: block;
+   padding:3px 22px;
+   border-radius: 20px;
+   text-decoration: none;   
+}
+#navbar ul li a:hover{
+color: black;
+background-color: white;
+ 
+ 
+     
+ }
+
+ #Home{
+    display: flex;
+    flex-direction: column;
+    padding:3px;
+    height: 526px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    
+    
+
+ }
+ #Home:before{
+    content: "";
+    background:url('Pizza\ background.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 73%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89; 
+    
+
+ }
+ #Home h1{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+ }
+ #Home p{
+    color: white;
+    text-align:  center;
+    font-size: 1rem;
+ }
+ .h-primary{
+    font-size: 3.8rem;
+    padding: 4px;
+    text-align: center;
+ }
+ .h-secondary{
+    text-align: center;
+    font-size: 3.8rem;
+    padding: 12px;
+ }
+ #btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ 
+ #services{
+    display: flex;
+    margin: 34px;
+    border: 2px solid yellow;
+
+ }
+ #services .box{
+    padding: 20px 5px;
+    border: 2px solid brown;
+    margin: 5px 10px;
+    border-radius: 23px;
+ }
+ #services .box img{
+    display: block;
+    margin: auto;
+    height: 156px;
+ }
+ .clients-partner{
+   position: relative;
+   height: 400px;
+
+ }
+ .clients-partner::before{
+   content: "";
+   position: absolute;
+   background:url('istockphoto-1045891932-1024x1024.jpg') no-repeat center center/cover;
+   z-index: -1;
+   height: 92%;
+   width: 100%;
+   opacity:2.0 ;
+
+ }
+ .clients{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .clients .item{
+  
+   padding: 25px 25px;
+   margin: 10px 100px;
+ }
+  .item img{
+   border-radius: 20px;
+   height: 144px;
+ }
+ .contact{
+   
+   position: relative;
+ }
+ .contact::before{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+ }
+ .contact-information{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 34px;
+   
+ }
+ .contact-information form{
+  width: 40%;
+ 
+ }
+ .contact-information label{
+font-size: 1.5rem;
+  }
+ .contact-item input,.contact-item textarea{
+  
+   width: 100%;
+   padding: 0.5rem;
+   border-radius: 10px;
+ }
+ footer{
+   background-color: black;
+   color: white;
+   padding: 20px 10px;
+   text-align: center;
+ }
